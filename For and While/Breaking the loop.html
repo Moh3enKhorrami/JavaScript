@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Breaking the loop</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        /*
+        Normalerweise wird eine Schleife beendet, wenn ihre Bedingung falsch wird.
+        Aber wir können den Ausstieg jederzeit mit der speziellen Anweisung "break" erzwingen.
+        Zum Beispiel fragt die Schleife unten den Benutzer nach einer Reihe von Zahlen und "bricht" ab, wenn keine Zahl eingegeben wird. */
+
+         let sum = 0;
+         while(true){
+            let value = +prompt ('Enter Nummber',);
+            if(!value) break;
+            sum += value;
+            
+         }
+
+            alert('Summer =' +sum);
+    </script>
+    
+</body>
+</html>
