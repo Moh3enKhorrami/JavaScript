@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>function</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        function checkAge(age){
+            if(age >=18){
+                return true;
+            }else{
+                return confirm('Haben Sie die Erlaubnis Ihrer Eltern?')
+            }
+        }
+
+        let age = prompt('Wie alt sind Sie?', 18);
+
+        if (checkAge(age)){
+            alert('Sie erlauben');
+        } else{
+            alert('Sie dürfen nicht');
+        }
+    </script>
+</body>
+</html>
