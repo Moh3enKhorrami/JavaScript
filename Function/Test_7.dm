@@ -1,0 +1,1 @@
+The second variant uses an additional function isPrime(n) to test for primality:
