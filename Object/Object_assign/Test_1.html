@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<script>
+"use strict";
+
+let user = {
+  name: "John",
+  age: 30
+};
+
+let clone = {}; // شیء خالی جدید
+
+// را درون آن کپی کنیم user بیایید تمام ویژگی‌های
+for (let key in user) {
+  clone[key] = user[key];
+}
+
+// حال شیء کپی شده یک شیء کاملا مستقل با محتوای یکسان است
+clone.name = "Pete"; // تغییر دادن داده‌ی درون آن
+
+alert( user.name ); // است John هنوز در شیء اصلی برابر با
+</script>
