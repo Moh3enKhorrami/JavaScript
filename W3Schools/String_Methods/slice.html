@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript String</h1>
+    <h2>The slice() Method</h2>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+
+    <script>
+        let text = "BMW, WV, FIAT";
+        let part = text.slice(5,7);
+        let part2 = text.slice(5);
+        let part3 = text.slice(-5);
+        document.getElementById("demo").innerHTML = part;
+        document.getElementById("demo2").innerHTML = part2;
+        document.getElementById("demo3").innerHTML = part3;
+
+    </script>
+</body>
+</html>
