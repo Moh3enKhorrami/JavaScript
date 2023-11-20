@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Convert string to upper / lower case</p>
+    <button onclick="myFunctionLowerCase()">Try it</button>
+    <button onclick="myFunctionUpperCase()">Try it</button>
+    <p id="demo">Hello World!</p>
+    <p id="demo2">Hello World!</p>
+
+    <script>
+        function myFunctionUpperCase(){
+            let text = document.getElementById("demo").innerHTML;
+            document.getElementById("demo").innerHTML = text.toUpperCase();
+        }
+
+        function myFunctionLowerCase(){
+            let text2 = document.getElementById("demo2").innerHTML;
+            document.getElementById("demo2").innerHTML = text2.toLowerCase();
+        }
+    </script>
+</body>
+</html>
