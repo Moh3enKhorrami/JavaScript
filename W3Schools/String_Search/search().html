@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>The position of the first occurrence of "locate" is:</p>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+
+    <script>   
+        let text = "Please locate where 'locate' occurs!";
+        let index = text.search("locate");
+        document.getElementById("demo").innerHTML = index; 
+        
+        let index2 = text.search(/locate/);
+        document.getElementById("demo2").innerHTML = index2;
+    </script> 
+
+</body>
+</html>
