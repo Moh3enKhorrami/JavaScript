@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>The Concat() Method</h1>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+
+    <script>
+        let text1 = "Hello";
+        let text2 = "World";
+        let text3 = text1.concat(" ",text2);
+        document.getElementById("demo").innerHTML = text3;
+
+
+        text4 = "Hello" + " " + "World!";
+        document.getElementById("demo2").innerHTML = text3;
+
+        text5 = "Hello".concat(" ", "World!");
+        document.getElementById("demo3").innerHTML = text3;
+
+    </script>
+
+</body>
+</html>
