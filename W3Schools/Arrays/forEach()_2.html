@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2> The a forEach metohd</h2>
+    <p id="demo"></p>
+
+    <script>
+        const numbers =[45, 5, 9, 16, 25];
+    
+        let txt = "";
+        let va;
+        let Arr;
+        numbers.forEach(myFunction);
+        document.getElementById("demo").innerHTML = txt;
+       
+        function myFunction(value, index, array){
+        // function myFunction(value) {
+
+            txt += value + "<br>";
+        }
+    
+
+    </script>
+</body>
+</html>
