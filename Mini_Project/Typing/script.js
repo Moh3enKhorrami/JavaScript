@@ -1,4 +1,4 @@
-const words = ["Moh3en", "Khorrami", "King", "Pouya", "Rohan", "Davood", "Iran", "Ahvaz", "Azade", "sedigh", "Computer", "JAVA", "JavaScript", "06609444951"]
+const words = ["Moh3en", "Khorrami", "King", "Pouya", "Rohan", "Davood", "Iran", "Ahvaz", "Azade", "sedigh", "Computer", "JAVA", "JavaScript", "+436609444951"]
 let wordIndex = 0;
 let startT, endT;
 
