@@ -1,0 +1,16 @@
+body{
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: 1;
+}
+
+.container{
+    text-align: center;
+}
+
+#user-input{
+    margin: 10px;
+    padding: 5px;
+}
